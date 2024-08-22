@@ -13,7 +13,10 @@ public class ShapeFactory {
             return new Triangle();
         } else if (shapeType.equalsIgnoreCase("RECTANGLE")) {
             return new Rectangle();
+        }else {
+            System.out.println("Invalid shape type provided.");
         }
+
         return null;
     }
 }

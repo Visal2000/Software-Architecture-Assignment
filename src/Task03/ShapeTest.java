@@ -25,6 +25,7 @@ public class ShapeTest {
         }
         Shape invalidShape = shapeFactory.getShape("PENTAGON");
         if (invalidShape != null){
+
             invalidShape.draw();
         }
     }
