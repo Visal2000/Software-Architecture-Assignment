@@ -5,9 +5,9 @@ public class LightDimCommand implements Command {
     private int previousLevel;
     private int dimLevel;
 
-    public LightDimCommand(Light light, int level) {
+    public LightDimCommand(Light light, int newBrightness) {
         this.light = light;
-        this.dimLevel = level;
+        this.dimLevel = newBrightness;
     }
 
     @Override
